@@ -4,7 +4,7 @@
   <metadata>
     <id>bbwin</id>
     <title>bbwin (Install)</title>
-    <version>0.13</version>
+    <version>0.13.20160427</version>
     <authors>sharpyy, tjyang</authors>
     <owners>Michael Smith</owners>
     <summary>bbwin, a Xymon monitoring client for Windows.</summary>
