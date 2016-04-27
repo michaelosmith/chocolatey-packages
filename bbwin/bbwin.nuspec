@@ -1,26 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>bbwin</id>
-    <title>bbwin</title>
-    <version>0.13.0.20130823</version>
+    <title>bbwin (Install)</title>
+    <version>0.13</version>
     <authors>sharpyy, tjyang</authors>
-    <owners>Devon Hubner</owners>
-    <summary>bbwin a Xymon monitoring client for Windows.</summary>
-    <description>BBWin is an open source client for Windows working with BigBrother or Xymon(Hobbit) monitoring software.</description>
+    <owners>Michael Smith, Devon Hubner</owners>
+    <summary>bbwin, a Xymon monitoring client for Windows.</summary>
+    <description>BBWin is an open source client for Windows working with BigBrother or Xymon(Hobbit) monitoring software.
+    </description>
     <projectUrl>http://bbwin.sourceforge.net/</projectUrl>
-    <tags>bbwin admin</tags>
+    <packageSourceUrl>https://github.com/michaelosmith/chocolatey-packages</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/michaelosmith/chocolatey-packages/issues</bugTrackerUrl>
+    <tags>bbwin admin xymon bigbrother</tags>
     <copyright></copyright>
-    <licenseUrl>http://bbwin.sourceforge.net/</licenseUrl>
+    <licenseUrl>https://sourceforge.net/directory/license:gpl/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/DevoKun/chocolatey-templates/master/bbwin/bbwin-logo.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/michaelosmith/chocolatey-packages/master/icons/bbwin-logo.png</iconUrl>
     <!--<dependencies>
-      <dependency id="" version="" />
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+    </releaseNotes>
+    <!--<provides></provides>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <!--<file src="content\**" target="content" />-->
   </files>
 </package>
