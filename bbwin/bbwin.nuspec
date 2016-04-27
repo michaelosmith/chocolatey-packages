@@ -6,7 +6,7 @@
     <title>bbwin (Install)</title>
     <version>0.13</version>
     <authors>sharpyy, tjyang</authors>
-    <owners>Michael Smith, Devon Hubner</owners>
+    <owners>Michael Smith</owners>
     <summary>bbwin, a Xymon monitoring client for Windows.</summary>
     <description>BBWin is an open source client for Windows working with BigBrother or Xymon(Hobbit) monitoring software.
     </description>
